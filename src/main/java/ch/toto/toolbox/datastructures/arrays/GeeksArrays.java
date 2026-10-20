@@ -1,0 +1,27 @@
+package ch.toto.toolbox.datastructures.arrays;
+
+/**
+ * Geeks Arrays <a href="https://www.geeksforgeeks.org/java/arrays-in-java/">Arrays in Java</a>
+ */
+public class GeeksArrays {
+    
+    public static void main(String[] args){
+        
+        // Primitive array
+        int[] arr = {10, 20, 30, 40};
+        int n = arr.length;
+
+        System.out.print("Primitive Array -> ");
+        for (int i = 0; i < n; i++)
+            System.out.print(arr[i] + " ");
+
+        System.out.println();
+
+        // Non-primitive array (String objects)
+        String[] names = {"Lakshit", "Rahul", "Pankaj"};
+
+        System.out.print("Non-Primitive Array -> ");
+        for (int i = 0; i < names.length; i++)
+            System.out.print(names[i] + " ");
+    }
+}
